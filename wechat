@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>微信聊天</title>
+    <link rel="stylesheet" href="https://8.url.cn/edu/classroom/assets/lib/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loading">
+        <img src="./img/icon/hourglass.svg" class="icon icon-loading" alt="loading">
+    </div>
+    <div class="wrapper">
+        <div class="cover first-page">
+            <p class="first-page-text"></p>
+            <button class="btn-continue">点击继续</button>
+        </div>
+        <div class="wechat-page">
+            <header>
+                <div class="nav-back">
+                    <i class="icon icon-back"></i>
+                    <span>微信</span>
+                </div>
+                <h1 class="nav-name"></h1>
+                <div class="nav-person">
+                    <i class="icon icon-person"></i>
+                </div>
+            </header>
+            <main>
+                <div class="message-list"></div>
+            </main>
+            <footer>
+                <i class="icon icon-voice"></i>
+                <div class="js-input text-input"></div>
+                <i class="icon icon-face"></i>
+                <i class="icon icon-plus"></i>
+            </footer>
+            <div class="message-select">
+            </div>
+        </div>
+        <div class="cover-tips hide">
+            <div class="mask"></div>
+            <div class="tips-container">
+                <p class="tips-text">你真棒</p>
+                <div class="tips-icons">
+                    <i class="icon icon-replay"></i>
+                    <i class="icon icon-share"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./theme/theme1.js"></script>
+    <script src="./theme/theme2.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
